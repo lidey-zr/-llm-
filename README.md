@@ -40,3 +40,6 @@
 ## 下一步打算
 
 -支持导入书签，并对已有的书签进行分类
+
+![image](https://github.com/user-attachments/assets/c1f95b29-025d-48bf-829c-b5874600d8d8)
+
