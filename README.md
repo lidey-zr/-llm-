@@ -26,6 +26,14 @@
 3. 扩展会自动分析页面内容并推荐合适的分类
 4. 确认或修改分类后保存即可
 
+## 示例
+
+![image](https://github.com/user-attachments/assets/e14c4303-344b-4d91-b3db-80f6bd2c7bdf)
+
+![image](https://github.com/user-attachments/assets/d0f69871-305a-4c41-aa4c-98b8ae98c627)
+
+
+
 ## 技术栈
 
 - Chrome Extension Manifest V3
@@ -41,5 +49,5 @@
 
 -支持导入书签，并对已有的书签进行分类
 
-![image](https://github.com/user-attachments/assets/c1f95b29-025d-48bf-829c-b5874600d8d8)
+
 
