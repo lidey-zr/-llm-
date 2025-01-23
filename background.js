@@ -1,5 +1,5 @@
 // DeepSeek API配置
-const API_KEY = 'sk-ubbltlcymcmtmcyjmvtddmvvsmegqtcwefymvygboywstkic';
+const API_KEY = '填入用户自己的apikey';
 const API_URL = 'https://api.siliconflow.cn/v1/chat/completions';
 
 // 规范化分类提示词
