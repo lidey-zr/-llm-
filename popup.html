@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div id="loading" class="loading"></div>
+        <div id="content">
+            <!-- 搜索区域 -->
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="搜索书签...">
+                </div>
+                <div id="searchResults" class="search-results" style="display: none;">
+                    <!-- 搜索结果将在这里动态生成 -->
+                </div>
+            </div>
+
+            <div id="pathContainer" class="breadcrumb" style="display: none;">
+                <!-- 分类路径将在这里动态生成 -->
+            </div>
+            
+            <div class="button-group">
+                <button id="classifyBtn" class="primary-button">
+                    <i class="fas fa-magic"></i>
+                    智能分类
+                </button>
+                <button id="saveBtn" class="primary-button" disabled>
+                    <i class="fas fa-save"></i>
+                    保存书签
+                </button>
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <i class="fas fa-search"></i>
+                <p>暂无搜索结果</p>
+            </div>
+
+            <!-- 添加书签预览区域 -->
+            <div id="bookmarkPreview" class="bookmark-preview" style="display: none;">
+                <h3>即将保存为：</h3>
+                <div class="preview-content">
+                    <i class="fas fa-bookmark"></i>
+                    <span id="bookmarkName"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
